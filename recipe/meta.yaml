@@ -30,14 +30,14 @@ test:
     - traceback_with_variables
 
 about:
-  home: https://github.com/andy-landy/traceback_with_variables/
+  home: https://github.com/andy-landy/traceback_with_variables
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: 'Python Traceback (Error Message) Printing Variables. Very simple to use, but versatile when needed. Try for debug and keep for production.'
   description: 'Adds variables to python traceback. Simple, lightweight, controllable. Debug reasons of exceptions by logging or pretty printing colorful variable contexts for each frame in a stacktrace, showing every value. Dump locals environments after errors to console, files, and loggers.'
   doc_url: https://github.com/andy-landy/traceback_with_variables/blob/master/README.md
-  dev_url: https://github.com/andy-landy/traceback_with_variables/
+  dev_url: https://github.com/andy-landy/traceback_with_variables
 
 extra:
   recipe-maintainers:
