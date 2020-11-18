@@ -1,19 +1,26 @@
 About traceback-with-variables
 ==============================
 
-Home: https://github.com/andy-landy/traceback_with_variables/
+Home: https://github.com/andy-landy/traceback_with_variables
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/traceback-with-variables-feedstock/blob/master/LICENSE.txt)
 
-Summary: Python Traceback (Error Message) Printing Variables. Very simple to use, but versatile when needed. Try for debug and keep for production.
+Summary: Python Traceback (Error Message) Printing Variables.
 
-Development: https://github.com/andy-landy/traceback_with_variables/
+Development: https://github.com/andy-landy/traceback_with_variables
 
 Documentation: https://github.com/andy-landy/traceback_with_variables/blob/master/README.md
 
-Adds variables to python traceback. Simple, lightweight, controllable. Debug reasons of exceptions by logging or pretty printing colorful variable contexts for each frame in a stacktrace, showing every value. Dump locals environments after errors to console, files, and loggers.
+Very simple to use, but versatile when needed. Try for
+debug and keep for production.Adds variables to python
+traceback. Simple, lightweight,
+controllable. Debug reasons of exceptions by logging or
+pretty printing colorful variable contexts for each frame
+in a stacktrace, showing every value. Dump locals
+environments after errors to console, files, and loggers.
+
 
 Current build status
 ====================
