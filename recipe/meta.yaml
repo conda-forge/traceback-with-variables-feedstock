@@ -36,7 +36,7 @@ about:
   license_file: LICENSE
   summary: Python Traceback (Error Message) Printing Variables.
   description: |
-    Very simple to use, but versatile when needed. Try for
+    Very simple to use, but versatile when needed.  Try for
     debug and keep for production.Adds variables to python
     traceback. Simple, lightweight,
     controllable. Debug reasons of exceptions by logging or
