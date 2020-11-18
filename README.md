@@ -13,7 +13,7 @@ Development: https://github.com/andy-landy/traceback_with_variables
 
 Documentation: https://github.com/andy-landy/traceback_with_variables/blob/master/README.md
 
-Very simple to use, but versatile when needed. Try for
+Very simple to use, but versatile when needed.  Try for
 debug and keep for production.Adds variables to python
 traceback. Simple, lightweight,
 controllable. Debug reasons of exceptions by logging or
