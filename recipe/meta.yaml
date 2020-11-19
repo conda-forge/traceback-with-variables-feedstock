@@ -1,5 +1,5 @@
 {% set name = "traceback-with-variables" %}
-{% set version = "1.1.7.2" %}
+{% set version = "1.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3abc28f3d0dcfd603d60dd52c0663975048b5a329fb99faf0a530e80e7adf0e3
+  sha256: d42e58058df4a69e10ef511daa6fd0390b7e605278585869da63e616a73d8a6f
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
-    - 'traceback-with-variables = traceback_with_variables.main:main'
+    - traceback-with-variables = traceback_with_variables.main:main
 
 requirements:
   host:
@@ -24,7 +24,7 @@ requirements:
     - python >=3.5
 
 test:
-  commands: 
+  commands:
     - traceback-with-variables --help
   imports:
     - traceback_with_variables
