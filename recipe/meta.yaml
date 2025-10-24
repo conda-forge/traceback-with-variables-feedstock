@@ -1,13 +1,13 @@
 {% set name = "traceback-with-variables" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 750457dd847f12d444320c9d24a4972912fcc64868c98b44f8a79ca2fd698257
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: ea7c695f9b401762f68f75df0439d661112b8dbd58bcd6910e402cff925ad7e0
 
 build:
   noarch: python
